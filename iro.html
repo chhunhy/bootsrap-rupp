@@ -10,6 +10,77 @@
    
 </head>
 <style>
+   .header {
+            background-color: #f9f9f9;
+            padding: 15px;
+            border-bottom: 2px solid #900;
+        }
+
+        .header img {
+            height: 80px;
+        }
+
+        .header h1 {
+            font-size: 24px;
+            margin: 0;
+        }
+
+        .header p {
+            font-size: 14px;
+            color: #666;
+        }
+
+        .nav-bar {
+            background-color: #900;
+        }
+
+        .nav-bar a {
+            color: white;
+            text-transform: uppercase;
+            font-size: 12px;
+            margin: 0 10px;
+            text-decoration: none;
+        }
+
+        .nav-bar a:hover {
+            text-decoration: underline;
+        }
+
+        .content {
+            margin-top: 20px;
+        }
+
+        .content-left ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .content-left ul li {
+            margin-bottom: 10px;
+        }
+
+        .content-left ul li a {
+            text-decoration: none;
+            color: #900;
+            font-weight: bold;
+        }
+
+        .content-left ul li a:hover {
+            color: #000;
+        }
+
+        .footer {
+            background-color: #900;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+
+        .footer a {
+            color: white;
+            text-decoration: underline;
+        }
     body {
       background-color: #f5f5f5; 
       color: #333; 
@@ -41,33 +112,44 @@
   </style>
 </head>
 <body>
-    <div class="top-nav">
-        <a href="/html/index.html">HOME</a>
-        <a href="/html/aboutus.html">ABOUT</a>
-        <a href="/html/e-library.html">E-LIBRARY</a>
-        <a href="/html/lanuguage.html">LANGUAGES</a>
-        <a href="/html/contactus.html">CONTACT</a>
+  <div class="header">
+    <div class="top-nav text-end">
+        <a href="index.html">HOME</a> |
+        <a href="aboutus.html">ABOUT</a> |
+        <a href="project.html">PROJECT</a> |
+        <a href="management.html">MANAGEMENT</a> |
+        <a href="foundation-studies.html">FOUNDATION STUDIES</a> |
+        <a href="iro.html">IRO</a> |
+        <a href="graduate-programs.html">GRADUATE PROGRAMS</a> |
+        <a href="umap.html">UMAP</a> |
+        <a href="contactus.html">CONTACT</a> |
+        <a href="mail.html">MAIL</a> |
+        <a href="e-library.html">E-LIBRARY</a> |
+        <a href="journal.html">JOURNAL</a>
+        <!-- <a href="/html/e-library.html">E-LIBRARY</a> | -->
+        <a href="lanuguage.html">Languages</a>
     </div>
-    
-    <div class="header">
-        <img src="/assets/rupp_logo.png" alt="University Logo">
-        <h1>សកលវិទ្យាល័យភូមិន្ទភ្នំពេញ</h1>
-        <h1>ROYAL UNIVERSITY OF PHNOM PENH</h1>
-        <p>Education, Research, and Service to Society</p>
+    <div class="header-content text-center">
+        <img src="/assets/rupp_logo.png" alt="University Logo" class="university-logo">
+        <h1 class="khmer-title">សាកលវិទ្យាល័យភូមិន្ទភ្នំពេញ</h1>
+        <h1 class="english-title">ROYAL UNIVERSITY OF PHNOM PENH</h1>
+        <p class="tagline">Education, Research, and Service to Society</p>
     </div>
-    
-    <div class="bottom-nav">
-        <a href="#">FACULTY OF SCIENCE</a>
-        <a href="#">FACULTY OF SOCIAL SCIENCE AND HUMANITIES</a>
-        <a href="#">FACULTY OF ENGINEERING</a>
-        <a href="#">FACULTY OF DEVELOPMENT STUDIES</a>
-        <a href="#">FACULTY OF EDUCATION</a>
-        <a href="#">INSTITUTE OF FOREIGN LANGUAGES</a>
-        <a href="#">INSTITUTE FOR INTERNATIONAL STUDIES AND PUBLIC POLICY</a>
-        <a href="#">CENTERS</a>
-        <a href="#">OFFICES</a>
-        <a href="#">CONFERENCES</a>
-    </div>
+</div>
+<nav class="nav-bar text-center py-2">
+  <div class="container">
+   <a href="fs.html">FACULTY OF SCIENCE</a>
+   <a href="fssh.html">FACULTY OF SOCIAL SCIENCE AND HUMANITIES</a>
+   <a href="fe.html">FACULTY OF ENGINEERING</a>
+   <a href="fds.html">FACULTY OF DEVELOPMENT STUDIES</a>
+   <a href="fed.html">FACULTY OF EDUCATION</a>
+   <a href="ifl.html">INSTITUTE OF FOREIGN LANGUAGES</a>
+   <a href="center.html">CENTERS</a>
+   <a href="office.html">OFFICES</a>
+   <a href="confference.html">CONFERENCES</a>
+
+  </div>
+</nav>
 
     <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
@@ -129,7 +211,7 @@
       </div>
       <div class="container-fluid pt-2" style="border-top: 4px solid brown; background-color: rgb(237, 237, 237); margin-top: 5px;">
         <footer class="text-center pt-4 pb-4">
-            Copyright © in 2024, Designed by Chhoy Sreynoch
+            Copyright © in 2024, Designed by Chhem Chhunhy
         </footer>
     </div>
 </body>

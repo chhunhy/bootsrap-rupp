@@ -7,6 +7,7 @@ body {
     border-bottom: 1px solid #ddd;
     padding: 5px 20px;
     text-align: right;
+    margin-bottom: 10px;
 }
 .top-nav a {
     margin: 0 10px;
@@ -22,6 +23,7 @@ body {
     text-align: center;
     padding: 20px;
     background-color: #f9f9f9;
+    border-top: 3px solid #900;
 }
 .header img {
     height: 80px;
@@ -31,8 +33,9 @@ body {
     margin: 10px 0;
 }
 .header p {
-    color: #666;
-    font-size: 14px;
+    font-size: 16px;
+    color: #900;
+    margin-top: 5px;
 }
 .bottom-nav {
     background-color: #900;
@@ -197,5 +200,37 @@ h1 {
         display: block;
         text-align: center;
         margin: 20px auto;
+    }
+}
+.header h1.khmer-title {
+    font-size: 28px;
+    font-weight: bold;
+    font-family: "Khmer OS", Arial, sans-serif; /* Use a Khmer font for better rendering */
+    margin: 10px 0;
+}
+
+.header h1.english-title {
+    font-size: 22px;
+    font-weight: normal;
+    font-family: Arial, sans-serif;
+    color: #555;
+    margin: 5px 0;
+}
+.header img.university-logo {
+    height: 90px;
+    margin-bottom: 10px;
+}
+@media (max-width: 768px) {
+    .header img.university-logo {
+        height: 70px;
+    }
+    .header h1.khmer-title {
+        font-size: 22px;
+    }
+    .header h1.english-title {
+        font-size: 18px;
+    }
+    .header p {
+        font-size: 14px;
     }
 }
